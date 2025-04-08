@@ -15,6 +15,16 @@ app.use(cors({
   ],
   credentials: true
 }));
+
+// ✅ Handle preflight requests
+app.options("*", cors({
+  origin: [
+    "https://vishwas-estate.netlify.app",
+    "https://real-estate-user-panel.netlify.app"
+  ],
+  credentials: true
+}));
+
 app.use('/uploads', express.static("uploads"))
 app.use("/api/v1/user", UserRoute);
 app.use("/api/v1/brand", brandRoute);
