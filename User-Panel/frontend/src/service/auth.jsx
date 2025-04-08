@@ -4,7 +4,7 @@ const authService = {
   login: async function login(email, password) {
     try {
       const response = await axios.post(
-        "http://localhost:7000/api/v1/user/login",
+        "http://estate-app-production.up.railway.app/api/v1/user/login",
         {Email: email,
         Password: password}
       );

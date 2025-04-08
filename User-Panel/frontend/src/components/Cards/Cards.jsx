@@ -15,7 +15,7 @@ function Cards({ filters = {} }) {
   useEffect(() => {
     async function propertyDetails() {
       try {
-        const response = await axios.get("http://localhost:7000/api/v1/property/allProperty");
+        const response = await axios.get("http://estate-app-production.up.railway.app/api/v1/property/allProperty");
         if (response.data.success) {
           setAllProperty(response.data.result);
           // Initialize all likes as false

@@ -16,7 +16,7 @@ function Register() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:7000/api/v1/user/register", formData);
+      await axios.post("https://estate-app-production.up.railway.app/api/v1/user/register", formData);
       toast.success("Thank you for registration", { position: "top-right" });
       setFormData({
         First_Name: "",

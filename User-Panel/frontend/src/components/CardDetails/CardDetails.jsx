@@ -14,7 +14,7 @@ function CardDetails() {
   async function fetchAllProperties() {
     try {
       const response = await axios.get(
-        "http://localhost:7000/api/v1/property/allProperty"
+        "http://estate-app-production.up.railway.app/api/v1/property/allProperty"
       );
       if (response.data.success) {
         setAllProperties(response.data.result);
