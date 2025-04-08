@@ -1,0 +1,29 @@
+.mainNavbarDiv{
+    display: flex;
+    /* background-color: rgb(237, 111, 111); */
+    align-items: center;
+}
+
+.mainLogoDiv h2{
+    padding: 20px;
+}
+
+.mainOptionsDiv ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* background-color: lightyellow; */
+}
+
+.mainOptionsDiv ul li{
+    justify-content: space-around;
+    /* background-color: red; */
+    padding: 10px;
+    
+}
+
+.mainOptionsDiv{
+    margin-left: auto;
+}

@@ -1,0 +1,52 @@
+.customRegisterInnerDiv{
+    /* background-color: rgb(85, 255, 0); */
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.customRegisterMainDiv{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    height: fit-content;
+    padding: 50px;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.customBtnGroupDiv{
+    background-color: white;
+    width: 100%;
+}
+
+.customBtnGroup{
+    /* background-color: red; */
+    text-align: start;
+    padding-right: 0px;
+    border: 1px solid lightgray;
+}
+
+.customSubmitBtn{
+    width: 100%;
+}
+
+.customRoleSelect{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.head{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.inputFielsDiv{
+    padding: 10px;
+}

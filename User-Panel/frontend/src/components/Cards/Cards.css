@@ -1,0 +1,75 @@
+.MainHeadingDiv {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card {
+  height: fit-content;
+  width: 400px;
+  border: 0px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.imageDiv {
+  position: relative;
+  background-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  /* background-color: black; */
+  object-fit: cover;
+  /* width: fit-content; */
+
+  width: 100%;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  /* width: fit-content; */
+}
+
+.card img {
+  border-radius: 20px;
+  height: 200px;
+  width: 100%;
+  display: block;
+}
+
+.card p {
+  margin: 0px;
+  display: block;
+  padding: 0px 10px 0px 10px;
+}
+
+.cardBtn {
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.bottomDiv {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #00000080;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.bottomBathroomPara {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}

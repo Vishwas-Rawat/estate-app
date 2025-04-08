@@ -1,0 +1,90 @@
+.customRegisterInnerDiv {
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    width: 500px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.customRegisterInnerDiv:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.customRegisterMainDiv {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 50px;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+.customSubmitBtn {
+    width: 100%;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    border: none;
+    padding: 12px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.customSubmitBtn:hover {
+    background: linear-gradient(90deg, #0056b3, #003d82);
+    transform: translateY(-2px);
+}
+
+.head {
+    background: linear-gradient(90deg, #4a90e2, #357abd);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 13px 13px 0 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.inputFielsDiv {
+    padding: 20px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+.form-label {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem !important;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.customRegisterInnerDiv {
+    animation: fadeIn 0.5s ease-out;
+}

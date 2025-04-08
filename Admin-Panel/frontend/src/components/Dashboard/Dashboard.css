@@ -1,0 +1,26 @@
+.customMainDiv{
+    display: flex;
+    min-height: 70vh;
+    margin-bottom: 0px;
+}
+.content{
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 0px;
+}
+.sideBar ul{
+    list-style-type: none;
+    padding: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+.sideBar ul li{
+    white-space: nowrap;
+    text-align: start;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 0px;
+}

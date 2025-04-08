@@ -1,0 +1,149 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.headingInnerDiv {
+  display: flex;
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.headingOuterDiv {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.headingInnerDiv p,
+h1 {
+  margin: 0px;
+}
+.headingInnerDiv .price {
+  margin-left: auto;
+}
+.mainDiv {
+  /* background-color: yellow; */
+  margin-bottom: 50px;
+}
+
+.cardDetailsImageDiv img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cardDetailsImageDiv {
+  margin-right: 20px;
+  width: 100%;
+  /* background-color: lightblue; */
+}
+.imageAndFormDiv {
+  display: flex;
+}
+.cardDetailsFormDiv {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.nameAndRole p {
+  margin: 0px;
+}
+.userImageDiv {
+  display: flex;
+}
+.nameAndRole {
+  margin-left: 15px;
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+.userDetails input {
+  border: 1px solid lightgray;
+  padding: 10px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cardDetailsOverviewHead {
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+.cardDetailsOverViewDiv {
+  margin-top: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.propertyDetailsDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+h5,
+p {
+  margin: 0px;
+}
+
+.cardDetailsAddressDiv {
+  margin-top: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.cardDetailsAddressHead {
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+
+.addressDetailsDiv .addressZipCodeDiv,
+.cityAreaDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.zipAreaCountryDiv {
+  width: 100%;
+}
+
+.addressDiv,
+.cityDiv,
+.stateDiv,
+.zipDiv,
+.countryDiv,
+.areaDiv {
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.addressSideHead {
+  margin-right: 50px;
+}
+
+.cardDetailsAddressInnerDiv, .cardDetailsDetailsInnerDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.addressCityStateDiv,
+.zipAreaCountryDiv {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardDetailsDescriptionDiv, .cardDetailsDetailsDiv{
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.cardDetailsDescriptionHead, .cardDetailsDetailsHead{
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+
