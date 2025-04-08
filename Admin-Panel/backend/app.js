@@ -8,20 +8,30 @@ import productRoute from './routes/productRoute.js'
 const app = express();
 dotenv.config();
 app.use(express.json());
+const allowedOrigins = [
+  "https://vishwas-estate.netlify.app",
+  "https://real-estate-user-panel.netlify.app"
+];
+
 app.use(cors({
-  origin: [
-    "https://vishwas-estate.netlify.app", // Admin Panel
-    "https://real-estate-user-panel.netlify.app" // Replace with actual User Panel URL
-  ],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
 
-// ✅ Handle preflight requests
 app.options("*", cors({
-  origin: [
-    "https://vishwas-estate.netlify.app",
-    "https://real-estate-user-panel.netlify.app"
-  ],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
 
