@@ -9,7 +9,10 @@ const app = express();
 dotenv.config();
 app.use(express.json());
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
+  origin: [
+    "https://vishwas-estate.netlify.app", // Admin Panel
+    "https://real-estate-user-panel.netlify.app" // Replace with actual User Panel URL
+  ],
   credentials: true
 }));
 app.use('/uploads', express.static("uploads"))
